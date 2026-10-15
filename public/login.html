@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Connexion</title>
+  </head>
+  <body>
+    <h1>Connexion</h1>
+    <p id="login-message" role="alert" aria-live="polite"></p>
+    <form method="POST" action="/login">
+      <label>
+        Email :
+        <input type="email" name="email" required /> </label
+      ><br /><br />
+      <label>
+        Mot de passe :
+        <input type="password" name="password" required /> </label
+      ><br /><br />
+      <button type="submit">Se connecter</button>
+    </form>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const message = document.getElementById('login-message');
+
+      if (params.has('locked')) {
+        message.textContent =
+          'Connexion bloquée après 3 tentatives échouées pour cette adresse e-mail.';
+      } else if (params.has('error')) {
+        const attempts = params.get('attempts');
+        message.textContent = attempts
+          ? `Email ou mot de passe incorrect. Tentative échouée ${attempts}/3.`
+          : 'Email ou mot de passe incorrect.';
+      }
+    </script>
+  </body>
+</html>

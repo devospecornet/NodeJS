@@ -1,0 +1,36 @@
+[2026-10-15T11:41:47.693Z] custom:message - Logger prêt
+[2026-10-15T12:19:45.603Z] server:start - port 3000
+[2026-10-15T12:32:35.233Z] server:start - port 3000
+[2026-10-15T12:51:32.817Z] server:start - port 3000
+[2026-10-15T12:58:15.785Z] server:start - port 3000
+[2026-10-15T13:04:40.837Z] server:start - port 3000
+[2026-10-15T13:06:35.562Z] server:start - port 3000
+[2026-10-15T13:07:40.392Z] server:start - port 3000
+[2026-10-15T13:08:26.147Z] server:start - port 3000
+[2026-10-15T13:11:42.865Z] server:start - port 3000
+[2026-10-15T13:12:05.241Z] server:start - port 3000
+[2026-10-15T13:29:03.838Z] server:start - port 3000
+[2026-10-15T13:29:12.740Z] auth:attempt - erica.cornet.mad@gmail.com - ::1
+[2026-10-15T13:29:12.741Z] auth:failure - erica.cornet.mad@gmail.com - ::1
+[2026-10-15T13:29:57.587Z] auth:attempt - erica.cornet.mad@gmail.com - ::1
+[2026-10-15T13:29:57.588Z] auth:failure - erica.cornet.mad@gmail.com - ::1
+[2026-10-15T13:35:19.907Z] auth:attempt - jean@example.com - ::ffff:127.0.0.1
+[2026-10-15T13:35:19.908Z] auth:failure - jean@example.com - ::ffff:127.0.0.1
+[2026-10-15T13:35:19.909Z] auth:attempt - jean@example.com - ::ffff:127.0.0.1
+[2026-10-15T13:35:19.910Z] auth:success - jean@example.com - ::ffff:127.0.0.1
+[2026-10-15T13:35:43.737Z] server:start - port 3000
+[2026-10-15T13:35:49.892Z] auth:attempt - erica.cornet.mad@gmail.com - 127.0.0.1
+[2026-10-15T13:35:49.893Z] auth:failure - erica.cornet.mad@gmail.com - 127.0.0.1
+[2026-10-15T13:36:15.476Z] server:start - port 3000
+[2026-10-15T13:36:59.223Z] auth:attempt - julie@example.com - 127.0.0.1
+[2026-10-15T13:36:59.223Z] auth:success - julie@example.com - 127.0.0.1
+[2026-10-15T13:44:42.107Z] server:start - port 3000
+[2026-10-15T13:45:06.515Z] auth:attempt - julie@example.com - 127.0.0.1
+[2026-10-15T13:45:06.515Z] auth:success - julie@example.com - 127.0.0.1
+[2026-10-15T13:45:09.644Z] action:triggered - action B - ::1
+[2026-10-15T13:45:12.022Z] action:triggered - action A - ::1
+[2026-10-15T13:52:57.314Z] server:start - port 3000
+[2026-10-15T14:48:01.879Z] server:start - port 3000
+[2026-10-15T14:49:04.156Z] auth:attempt - julie@example.com - 127.0.0.1
+[2026-10-15T14:49:04.157Z] auth:success - julie@example.com - 127.0.0.1
+[2026-10-15T14:49:10.591Z] action:triggered - action B - ::1
